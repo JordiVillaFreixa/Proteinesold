@@ -94,16 +94,16 @@ Podem començar per [cercar a PFAM el codi uniprot de la proteïna](http://pfam.
 Podem aleshores explorar l'entrada per a aquest domini específic: PFAM: PF00071, i observem que es tracta d'una GTPasa. El domini concret Ras està altament distribuït, trobat en més de [1500 arquitectures diferents](http://pfam.xfam.org/family/PF00071#tabview=tab1), vora [2000 espècies](http://pfam.xfam.org/family/PF00071#tabview=tab7)
 
 /* set css rules for styling the logo */
-<link rel="stylesheet" type="text/css" href="hmm_logo.min.css">
+<link rel="stylesheet" type="text/css" href="../code/hmm_logo.min.css">
 
 /* make sure jQuery has been loaded */
-<script src="jquery-1.8.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
 
 /* load in the hmm_logo code */
-<script src="hmm_logo.min.js"></script>
+<script src="../code/hmm_logo.bundle.js"></script>
 
 /* At the location where you want the logo to appear in your page */
-<div id="logo" class="logo" data-logo="ras.json"></div>
+<div id="logo" class="logo" data-logo="../ras.json"></div>
 
 /* finally run the call to render the logo on page load */
 <script>
