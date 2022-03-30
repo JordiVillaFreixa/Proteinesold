@@ -5,21 +5,46 @@ permalink: /estructura/
 ---
 
 
-- [Pregunta oberta sobre estructura de proteïnes](#pregunta-oerta-sobre-estructura-de-proteïnes)
-  - [holsa](#holsa)
-  - [5P21](#5p21)
-  - [1PRN](#1prn)
-  - [1BL8](#1bl8)
-  - [2RH1](#2rh1)
-  - [1BIF](#1bif)
-  - [3H8Q](#3h8q)
+- [Exemples d'anàlisi d'estructures](#exemples-danàlisi-destructures)
+  - [PDB: 5P21](#pdb-5p21)
+    - [Estructura secundària](#estructura-secundària)
+    - [Estructura supersecundària](#estructura-supersecundària)
+    - [Plegament](#plegament)
+    - [Funció](#funció)
+  - [PDB: 1PRN](#pdb-1prn)
+    - [Estructura secundària](#estructura-secundària-1)
+    - [Estructura supersecundària](#estructura-supersecundària-1)
+    - [Plegament](#plegament-1)
+    - [Funció](#funció-1)
+  - [PDB: 1BL8](#pdb-1bl8)
+    - [Estructura secundària](#estructura-secundària-2)
+    - [Estructura supersecundària](#estructura-supersecundària-2)
+    - [Plegament](#plegament-2)
+    - [Funció](#funció-2)
+  - [PDB: 2RH1](#pdb-2rh1)
+    - [Estructura secundària](#estructura-secundària-3)
+    - [Estructura supersecundària](#estructura-supersecundària-3)
+    - [Plegament](#plegament-3)
+    - [Funció](#funció-3)
+  - [PDB: 1BIF](#pdb-1bif)
+    - [Estructura secundària](#estructura-secundària-4)
+    - [Estructura supersecundària](#estructura-supersecundària-4)
+    - [Plegament](#plegament-4)
+    - [Funció](#funció-4)
+  - [PDB: 3H8Q](#pdb-3h8q)
+    - [Estructura secundària](#estructura-secundària-5)
+    - [Estructura supersecundària](#estructura-supersecundària-5)
+    - [Plegament](#plegament-5)
+    - [Funció](#funció-5)
 
 
-# Pregunta obberta sobre estructura de proteïnes
+# Exemples d'anàlisi d'estructures
  
 ## PDB: 5P21
 
  El codi [PDB:5P21](https://www.rcsb.org/structure/5p21) correspon a l'estructura de la proteïna H-RAS p21,codi [UNIPROT:P01112](https://www.uniprot.org/uniprot/P01112), amb una gran conservació de seqüència pel que es pot veure a l'[alineament](https://www.rcsb.org/uniprot/P01112) que el propi PDB ens dona.
+
+ * [Sessió a Chimera](../code/5p21.py)
 
 
 La seqüència de la proteïna al PDB és
