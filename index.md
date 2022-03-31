@@ -1,4 +1,4 @@
-# Explorant les relacions estrcutura-funció de les proteïnes
+# Explorant les relacions estructura-funció de les proteïnes
 
 Aquest lloc web conté informacions diverses sobre l'estudi de les recionas entre la seqüència, l'estrcutura i la funció de les proteïnes. El material es pot usar de manera lliure en formació i difusió a diversos nivells, des de batxillerat a doctorat. 
 
