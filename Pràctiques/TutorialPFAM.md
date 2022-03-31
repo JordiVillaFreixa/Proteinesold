@@ -12,19 +12,19 @@ permalink: /tutorialPFAM/
 <!-- code_chunk_output -->
 
 - [PFAM: Eines per investigar relacions seqüència-estructura-funció de proteïnes](#pfam-eines-per-investigar-relacions-seqüència-estructura-funció-de-proteïnes)
-  - [Cerques de semblança](#cerques-de-semblança)
+  - [Cerques de semblança guai](#cerques-de-semblança-guai)
     - [Models de Markov ocults (HMM de perfil)](#models-de-markov-ocults-hmm-de-perfil)
   - [PFAM](#pfam)
     - [Què és Pfam?](#què-és-pfam)
     - [Per què necessitem Pfam?](#per-què-necessitem-pfam)
     - [Què podem fer amb Pfam?](#què-podem-fer-amb-pfam)
     - [Famílies i clans Pfam](#famílies-i-clans-pfam)
-      - [1) Domini:](#domini)
-      - [2) Família:](#família)
-      - [3) Repetiu:](#repetiu)
-      - [4) Motiu:](#motiu)
-      - [5) Bobina enrotllada (_coiled-coil_):](#bobina-enrotllada-_coiled-coil_)
-      - [6) Desordenat:](#desordenat)
+      - [1) Domini:](#1-domini)
+      - [2) Família:](#2-família)
+      - [3) Repetiu:](#3-repetiu)
+      - [4) Motiu:](#4-motiu)
+      - [5) Bobina enrotllada (_coiled-coil_):](#5-bobina-enrotllada-coiled-coil)
+      - [6) Desordenat:](#6-desordenat)
     - [Què és un clan Pfam?](#què-és-un-clan-pfam)
   - [Com començar amb Pfam](#com-començar-amb-pfam)
     - [Cerca i visualització de dades: seqüència](#cerca-i-visualització-de-dades-seqüència)
@@ -36,7 +36,7 @@ permalink: /tutorialPFAM/
 <!-- /code_chunk_output -->
 
 
-## Cerques de semblança
+## Cerques de semblança guai
 
 La cerca en bases de dades s'utilitza àmpliament en bioinformàtica i hi ha diverses maneres diferents
 per fer cerques en bases de dades de proteïnes. Per exemple, algorismes d'alineació com BLAST [Altschul et al., 1990]
