@@ -8,8 +8,8 @@ permalink: /estructura/
 
 Els enllaços corresponen a fitxes de treball que poden utilitzar-se en estudis de relació estructura-funció. Com la resta d'aquest lloc web, totes les fitxes estan en constant evolució i estarem contents de rebre comentaris de millora.
  
-* [H-RAS p21](5p21)
-* [H-RAS p21](1bl8)
-* [H-RAS p21](2rh1)
-* [H-RAS p21](1bif)
-* [H-RAS p21](3h8q)
+* [H-RAS p21](/5p21)
+* [H-RAS p21](/1bl8)
+* [H-RAS p21](/2rh1)
+* [H-RAS p21](/1bif)
+* [H-RAS p21](/3h8q)
