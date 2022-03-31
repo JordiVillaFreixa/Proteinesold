@@ -12,7 +12,7 @@ permalink: /tutorialPFAM/
 <!-- code_chunk_output -->
 
 - [PFAM: Eines per investigar relacions seqüència-estructura-funció de proteïnes](#pfam-eines-per-investigar-relacions-seqüència-estructura-funció-de-proteïnes)
-  - [Cerques de semblança guai](#cerques-de-semblança-guai)
+  - [Cerques de semblança](#cerques-de-semblança)
     - [Models de Markov ocults (HMM de perfil)](#models-de-markov-ocults-hmm-de-perfil)
   - [PFAM](#pfam)
     - [Què és Pfam?](#què-és-pfam)
@@ -36,7 +36,7 @@ permalink: /tutorialPFAM/
 <!-- /code_chunk_output -->
 
 
-## Cerques de semblança guai
+## Cerques de semblança 
 
 La cerca en bases de dades s'utilitza àmpliament en bioinformàtica i hi ha diverses maneres diferents
 per fer cerques en bases de dades de proteïnes. Per exemple, algorismes d'alineació com BLAST [Altschul et al., 1990]
