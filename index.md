@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Explorant les relacions estructura-funció de les proteïnes
 
 Aquest lloc web conté informacions diverses sobre l'estudi de les recionas entre la seqüència, l'estrcutura i la funció de les proteïnes. El material es pot usar de manera lliure en formació i difusió a diversos nivells, des de batxillerat a doctorat. 
@@ -9,4 +13,4 @@ Estructurar aquest lloc és feina feixuga, i en cas que trobeu qualsevol errada 
 site {{site}}
 site.baseurl {{site.baseurl}}
 
-Accedeix a [un llistat d'exemples]({{site.baseurl}}/estructura/) d'anàlisi bàsic de les relacions estructura-funció de diverses proteïnes rellevants.
+Accedeix a [un llistat d'exemples](/estructura/) d'anàlisi bàsic de les relacions estructura-funció de diverses proteïnes rellevants.

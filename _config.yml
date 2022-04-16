@@ -56,8 +56,4 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
-
 theme: jekyll-theme-midnight
-
-permalink: /:categories/:title:output_ext
