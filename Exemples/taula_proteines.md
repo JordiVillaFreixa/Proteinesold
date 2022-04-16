@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Exemples d'estudi d'estructures de proteïnes
-permalink: {{ site.baseurl }}/estructura/
+permalink: /estructura/
 ---
 
 # Exemples d'anàlisi d'estructures
