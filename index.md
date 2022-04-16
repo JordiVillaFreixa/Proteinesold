@@ -10,7 +10,4 @@ Estructurar aquest lloc és feina feixuga, i en cas que trobeu qualsevol errada 
 
 # Exemples
 
-site {{site}}
-site.baseurl {{site.baseurl}}
-
 Accedeix a [un llistat d'exemples](/estructura/) d'anàlisi bàsic de les relacions estructura-funció de diverses proteïnes rellevants.
