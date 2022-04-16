@@ -7,7 +7,6 @@ Estructurar aquest lloc és feina feixuga, i en cas que trobeu qualsevol errada 
 # Exemples
 
 site {{site}}
-baseurl {{baseurl}}
 site.baseurl {{site.baseurl}}
 
-Accedeix a [un llistat d'exemples]({{baseurl}}/estructura/) d'anàlisi bàsic de les relacions estructura-funció de diverses proteïnes rellevants.
+Accedeix a [un llistat d'exemples]({{site.baseurl}}/estructura/) d'anàlisi bàsic de les relacions estructura-funció de diverses proteïnes rellevants.
