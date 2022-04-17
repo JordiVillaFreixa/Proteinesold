@@ -125,32 +125,47 @@ El monomer de la proteïna està clarament dividit en dos dominis funcionals, qu
 | motiu | regio | imatge |
 |:-------:|:-------:|:--------:|
 |   $\beta$-hairpin    | per ex.  ```HTVLKLTPVAYGCKVESIF```    |   ![](../figures/1bif_hairpin.png)     |
+|    P-loop / Walker motif  |    ```GLPARGKT```   |    ![](../figures/1bif_ploop.png)       |
 |     $\beta-\alpha$    |   per ex.  ```TLIVMVGLPARGKTYISKKLTRYLNFIG``` |    ![](../figures/1bif_betaalfa.png)       |
 
 ## Plegament
 
-Es tracta d'una proteïna $\alpha/\beta$, amb un plegament de tipus *G-domain-like* quin representant és PDB:1CTQ [segons la clasificació a SCOP](https://scop.mrc-lmb.cam.ac.uk/term/8019404)
+Es tracta d'una proteïna $\alpha/\beta$, amb dos dominis i plegaments clarament diferenciats
 
-|![](../figures/1CTQ_SCOP.png)|
+ 1. plegament de tipus *P-loop kinase* [segons la clasificació a SCOP](https://scop.mrc-lmb.cam.ac.uk/term/8019198) en el domini N-terminal;
+ 1. plegament de tipus *Phosphoglycerate mutase* [segons la clasificació a SCOP](https://scop.mrc-lmb.cam.ac.uk/term/8019202) en el domini C-terminal.
+
+|![](../figures/1BIF_SCOP1.png)![](../figures/1BIF_SCOP1.png)|
 |:--:|
-|Estructura jeràrquica del domini al qual pertany PDB:5P21, representada a SCOP per PDB:1CTQ|
+|Estructura jeràrquica dels dos dominis presents a PDB:1BIF|
 
-i de domini que forma part de la superfamília *P-loop containing nucleotide triosephosphate hydrolases* [segons CATH](http://www.cathdb.info/search?q=5p21).
+Aquests dominis s'identifiquen com a par de les superfamílies *P-loop containing nucleotide triosephosphate hydrolases* i *Phosphoglycerate mutase-like* [segons CATH](http://www.cathdb.info/search?q=1bif).
 
 ## Funció
 
-Podem començar per [cercar a PFAM el codi uniprot de la proteïna](http://pfam.xfam.org/protein/P01112). Veiem que es tracta d'una proteïna amb un sol domini ben caracteritzat:
+Podem començar per [cercar a PFAM el codi uniprot de la proteïna](http://pfam.xfam.org/protein/P01112). Veiem que es tracta d'una proteïna amb dos dominis ben caracteritzats:
 
-|![](../figures/5p21_pfam1.png)|
+|![](../figures/1bif_pfam1.png)|
 |:--:|
-|Taula resum dels dominis PFAM per al PDB:5p21, UNIPROT: P01112|
+|Taula resum dels dominis PFAM per al PDB:1BIF, UNIPROT: P25114|
 
-Podem aleshores explorar l'entrada per a aquest domini específic: PFAM: PF00071, i observem que es tracta d'una GTPasa. El domini concret Ras està altament distribuït, trobat en més de [1500 arquitectures diferents](http://pfam.xfam.org/family/PF00071#tabview=tab1), vora [2000 espècies](http://pfam.xfam.org/family/PF00071#tabview=tab7)
+Podem aleshores explorar l'entrada per a cadascun d'aquests dominis: 
 
-L'estudi del [logo HMM](http://pfam.xfam.org/family/ras#tabview=tab4) ens mostra una regió molt enriquida en glicines corresponent al P-loop, i també la gran conservació de la Treonina 35 del fitxer PDB (posició 31 en el logo HMM), que és essencial per a la coordinació de l'ió magnesi, que participa en la reacció GTPasa, com es pot apreciar en el centre actiu de la proteïna:
+ 1. PFAM: PF01591/6PF2K, quinasa que enllaça dos substrats: ATP i beta-D-fructosa 6-fosfat. El domini es troba en més de [100 arquitectures diferents](http://pfam.xfam.org/family/6PF2K#tabview=tab1), i vora [1500 espècies](http://pfam.xfam.org/family/6PF2K#tabview=tab7), majoritàriament eucariotes.
+ 2. PFAM: PF00300/His_Phos_1, fosfatases d'histidina. El domini es troba en més de [500 arquitectures diferents](http://pfam.xfam.org/family/His_Phos_1#tabview=tab1), i més de [8000 espècies](http://pfam.xfam.org/family/His_Phos_1#tabview=tab7), de taxons molt diversos.
 
-|![](../figures/5p21_centreactiu.png)|
+L'estudi dels logos HMM dels dos dominis, mostra informació sobre els seus centres actius:
+
+1. (http://pfam.xfam.org/family/PF01591#tabview=tab4) ens mostra una regió molt enriquida en glicines corresponent al P-loop, i també la gran conservació de la Treonina 52 del fitxer PDB (posició 27 en el logo HMM), que és essencial per a la coordinació de l'ió magnesi, que participa en la reacció d'hidròlisi de l'ATP, com es pot apreciar en el centre actiu de la proteïna:
+
+|![](../figures/1bif_ploop.png)|
 |:--:|
-|Centre actiu de la proteïna PDB:5p21. S'aprecia que l'ió magnesi està coordinat per 6 àtoms d'oxigen: dos provinents de sengles molècules d'aigua, dos dels fosfats $\beta$ i $\gamma$ del GTP, un de la serina 17 i un altre de la treonina 35 (aquests dos residus, altament conservats en les posicions [13 i 31 del logo HMM](http://pfam.xfam.org/family/ras#tabview=tab4)).|
+|regió d'enllaç als fosfats de l'ATP  en el domini N-terminal de la proteïna PDB:1BIF.|
 
-Altres residus altament conservats que s'aprecien al logo PFAM tenen tasques estructures importants en l'activitat de la proteïna Ras.
+2. (http://pfam.xfam.org/family/PF00300#tabview=tab4) ens mostra una gran conservació de residus polars i carregats, en especial dues histidines (veure la figura 5 de l'[article](https://www.cell.com/structure/fulltext/S0969-2126(96)00109-8) on es publicava l'estructura 1BIF)
+
+|![](../figures/1bif_centreactiu2.png)|
+|:--:|
+|centre actiu on es produeix la hidròlisi de la fructosa-2,6-bifosfatasa en el domini C-terminal de la proteïna PDB:1BIF.|
+
+Altres residus altament conservats que s'aprecien al logo PFAM tenen tasques importants en l'activitat de la proteïna.
