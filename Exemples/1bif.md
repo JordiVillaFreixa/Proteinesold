@@ -26,7 +26,7 @@ permalink: /1bif/
     </style>
   </head>
 
-<h1> Anàlisi de les relacions seqüència-estructura-funció de la proteïna bifuncional fosfoquinasa/fructosa 2,6-bifosfatasa (PDB: 1BF1)</h1>
+<h1> Anàlisi de les relacions seqüència-estructura-funció de la proteïna bifuncional fosfoquinasa/fructosa 2,6-bifosfatasa (PDB: 1BIF)</h1>
 
 - [Estructura secundària](#estructura-secundària)
 - [Estructura supersecundària](#estructura-supersecundària)
@@ -34,7 +34,7 @@ permalink: /1bif/
 - [Funció](#funció)
 
 
- El codi [PDB:1BF1](https://www.rcsb.org/structure/1bf1) correspon a l'estructura de l'enzim bifuncional 6-fosfofructo-2-quinasa/fructosa-2,6-bifosfatasa, que catalitza tant la síntesi com la degradació de la frustosa-2,6-bifosfat, un metabòlit clau en el metabolisme de la glucosa. El codi [UNIPROT:P25114](https://www.uniprot.org/uniprot/P25114), amb una gran conservació de seqüència.
+ El codi [PDB:1BIF](https://www.rcsb.org/structure/1bif) correspon a l'estructura de l'enzim bifuncional 6-fosfofructo-2-quinasa/fructosa-2,6-bifosfatasa, que catalitza tant la síntesi com la degradació de la frustosa-2,6-bifosfat, un metabòlit clau en el metabolisme de la glucosa. El codi [UNIPROT:P25114](https://www.uniprot.org/uniprot/P25114), amb una gran conservació de seqüència.
 
 
 La seqüència de la proteïna al PDB és
