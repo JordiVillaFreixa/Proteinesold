@@ -55,5 +55,5 @@ markdown: kramdown
 #   - vendor/gems/
 #   - vendor/ruby/
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-hacker
 #permalink: pretty
