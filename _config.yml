@@ -23,9 +23,9 @@ email: jordi.villa@uvic.cat
 description: >- # this means to ignore newlines until "baseurl:"
   Material d'estudi sobre relacions seqüència-estructura-funció de proteïnes
 baseurl: "" # the subpath of your site, e.g. /blog
-#url: "https://jordivillafreixa.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cbblab1
-github_username:  JordiVillaFreixa
+url: "https://jordivillafreixa.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: cbblab1
+#github_username:  JordiVillaFreixa
 
 # Build settings
 remote_theme: pages-themes/architect@v0.2.0
