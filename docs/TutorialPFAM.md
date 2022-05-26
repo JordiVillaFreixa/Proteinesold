@@ -124,7 +124,7 @@ Una unitat curta que té un paper diferent, per exemple l'enllaç d'un ió metà
 #### 5) Bobina enrotllada (_coiled-coil_):
 Regions d'una proteïna que formen hèlixs alfa que s'alineen entre si per formar una estructura distintiva anomenada bobina enrotllada.
 
-![GCN4 Leucine zipper; exemple clàssic de coiled-coil ([PDB:1ZIK](https://www.rcsb.org/3d-sequence/1ZIK?assemblyId=1))](../figures/GCN4_coiled_coil_dimer_1zik_rainbow.png)
+![GCN4 Leucine zipper; exemple clàssic de coiled-coil ([PDB:1ZIK](https://www.rcsb.org/3d-sequence/1ZIK?assemblyId=1))](figures/GCN4_coiled_coil_dimer_1zik_rainbow.png)
 
 #### 6) Desordenat:
 Regions de proteïnes que estan inherentment desordenades però tenen conservació de seqüències.
@@ -150,7 +150,7 @@ Pfam inclou pàgines separades per a cadascun dels tipus de dades següents:
 
 Podeu consultar cadascuna de les pàgines anteriors utilitzant l'accés o el nom de l'entitat, o cercant paraules clau relacionades.
 
-![[Selector principal](https://pfam.xfam.org/) a PFAM](../figures/pfam1.png)
+![[Selector principal](https://pfam.xfam.org/) a PFAM](figures/pfam1.png)
 
 Hi ha una sèrie d'"enllaços ràpids" disponibles a la pàgina d'inici de Pfam que us permeten consultar la base de dades mitjançant diversos mètodes diferents. Si feu clic a qualsevol dels enllaços ràpids  s'obrirà un quadre de diàleg per a aquest tipus de cerca en particular. Aquests inclouen: un nom de proteïna o accés (p. ex. VAV_HUMAN), un nom de família Pfam o accés (p. ex. PF00571), un nom de clan o accés (p. ex. ENTH_VHS), una accés PDB (p. ex. 2abl) o paraules clau (p. ex. 'RNA binding'). Es donen exemples addicionals sota cada encapçalament del lloc web.
 
@@ -165,7 +165,7 @@ Si feu clic a la pestanya ["Search"](https://pfam.xfam.org/search#tabview=tab1) 
 
 Podeu fer-ho enganxant una seqüència en format FASTA (proteïna o ADN) al quadre de diàleg de la seqüència. Això compara la seqüència enviada amb la base de dades Pfam utilitzant el valor E per defecte que es mostra (el valor mostrat a la pàgina és l'òptim per a evitar falsos positius).
 
-![Cerca de PFAM [per seqüència](https://pfam.xfam.org/search#tabview=tab0)](../figures/pfam2.png)
+![Cerca de PFAM [per seqüència](https://pfam.xfam.org/search#tabview=tab0)](figures/pfam2.png)
 
 Cercarem aquesta seqüècia:
 
@@ -186,7 +186,7 @@ MMMGFTVAD
 
 Com es demostra a continuació, aquesta seqüència té coincidències significatives amb tres famílies diferents al llarg de la seva longitud.
 
-![Resultats de la cerca per seqüència a PFAM](../figures/pfam3.png)
+![Resultats de la cerca per seqüència a PFAM](figures/pfam3.png)
 
 La columna Família mostra quines famílies Pfam es troben a la seqüència consultada. Els _E-value_ i els _Bit-score_ indiquen la importància dels resultats. Els detalls dels residus que pertanyen a cada família estan disponibles a l'opció _"Show"_ que mostra l'alineació entre la consulta i l'HMM coincident.
 
@@ -194,11 +194,13 @@ La columna Família mostra quines famílies Pfam es troben a la seqüència cons
 
 Cada família Pfam es mostra amb un color al llarg de la seqüència consultada. El nom del domini es mostra dins de la representació gràfica. Si les seqüències consultades coincideixen amb l'alineació completa del domini, el gràfic del domini complet es mostra amb vores arrodonides. Tanmateix, si la seqüència consultada no coincideix amb la longitud completa del model HMM del domini, la representació gràfica del domini es mostra amb una vora irregular dins de 5 posicions de la primera o darrera posició del perfil HMM. 
 
+Les repeticions i els motius són tipus de dominis Pfam que no formen unitats plegades independentment. Per tal de distingir-los dels dominis de família tipus i domini, les repeticions i els motius es representen mitjançant rectangles amb arestes rectes. 
+
 ## Comparant la vostra seqüència amb models familiars
 
 Les vistes d'alineament us mostren fins a quin punt la vostra seqüència coincideix amb els models HMMI de la família.
 
-![Alineament d'un dels diominis del resultat](../figures/pfam4.png)
+![Alineament d'un dels diominis del resultat](figures/pfam4.png)
 
 A la columna de la família:
 
