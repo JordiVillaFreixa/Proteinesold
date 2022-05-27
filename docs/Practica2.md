@@ -25,9 +25,8 @@ permalink: /practica2/
     </style>
   </head>
 
-# Activitat S2: Relacions seqüència-estructura-funció
+# Exercicis relacions seqüència-estructura-funció
 
-(Química i Enginyeria de Proteïnes, 2021-2022)
 
 ## Preparació
 
@@ -35,7 +34,7 @@ permalink: /practica2/
 2. Familiarització amb **[Pfam](https://pfam.xfam.org/)**
 3. [Tutorial](./TutorialPFAM.pdf) de PFAM
 
-## EXERCICI 1) Exemple d'ús de PFAM
+## EXERCICI 1) Exploració dels dominis d'una proteïna
 
 ### Qüestió
 
@@ -77,7 +76,7 @@ La taula mostra 4 clars dominis:
 * Ankyrin repeats (diverses còpies i variants: [ANK](http://pfam.xfam.org/family/Ank), [ANK_2](http://pfam.xfam.org/family/Ank_2) i [ANK_4](http://pfam.xfam.org/family/Ank_4)) 	
 * [Death domain](http://pfam.xfam.org/family/Death)
 
-Com expliquem al [Tutorial](./TutorialPFAM.pdf) de PFAM, observem famílies PFAM (dominis RHD_DNA_bind,  RHD_dimer i DEATH), així com dominis repetits (Ankyrin, en aquest cas).
+Com expliquem al [Tutorial](/tutorialPFAM) de PFAM, observem famílies PFAM (dominis RHD_DNA_bind,  RHD_dimer i DEATH), així com dominis repetits (Ankyrin, en aquest cas).
 
 La informació a les pàgines de PFAM ens mostra que:  
 
@@ -113,7 +112,7 @@ AHSLPLSPASTRQQIDELRDSDSVCDSGVETSFRKLSFTESLTSGASLLTLNKMPHDYGQ
 EGPLEGKI
 </pre>
 
-## EXERCICI 2) Exemple d'ús de PFAM
+## EXERCICI 2) Dominis compartits
 
 ### Qüestió
 
@@ -147,7 +146,7 @@ Observem que hi ha dos dominis comuns:
 
 El fet de disposar de dominis d'interacció entre proteases (kringle) i de les pròpies proteases (domini tripsina) mostra clarament un seguit de proteïnes que treballen en cascada, amb interaccions entre elles i les proteïnes a catalitzar.
 
-## EXERCICI 3) Exemple d'ús de PFAM
+## EXERCICI 3) Homologia
 
 ### Qüestió
 
